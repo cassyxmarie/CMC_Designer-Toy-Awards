@@ -1,7 +1,12 @@
 
   <div class="header">
+    {{#link-to 'index'}}
+      <div class="site-title">
+        <p class="designer">Designer</p>
+        <p class="toy-awards"> TOY AWARDS</p>
+      </div>
+    {{/link-to}}
     <nav>
-    {{#link-to 'index'}}Designer Toy Awards{{/link-to}}
     {{#link-to 'winners'}}Winners{{/link-to}}
     {{#link-to 'awards'}}Awards{{/link-to}}
     {{#link-to 'news'}}News{{/link-to}}

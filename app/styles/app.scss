@@ -1,1 +1,41 @@
 @import "partials/base";
+
+// cream - #FAFAFA
+// yellow - #EAC281
+// brown - #423636
+// red - #F0544F
+// blue - 17BEBB
+
+body {
+  background: #FAFAFA;
+}
+a {
+  text-decoration: none;
+  color: #423636;
+}
+
+nav {
+  font-family: "Arvo";
+  font-weight: 400;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  max-width: 940px;
+}
+
+.site-title {
+  border: solid 1px black;
+  line-height: 2px;
+  color: #423636;
+  .designer {
+    font-family: "Raleway";
+    font-weight: bolder;
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+  .toy-awards {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 25px;
+  }
+}
