@@ -1,0 +1,62 @@
+@import "variables-mixins";
+
+.enter-img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+}
+
+.enter-box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  text-align: center;
+    .designer-p {
+      position: relative;
+      font-weight: 700;
+      font-size: 100px;
+      line-height: 0px;
+      top: 0px;
+    }
+
+    .toyawards-p {
+      position: relative;
+      font-weight: 200;
+      font-size: 66px;
+      line-height: 0px;
+      margin-left: 5px;
+      top: -10px;
+    }
+
+    .yellow-line {
+      margin-left: 8%;
+      position: relative;
+      align-self: center;
+      width: 85%;
+      height: 3px;
+      background-color: $gold;
+      margin: none;
+      top: -40px;
+    }
+    .welcome-box {
+      width: 82%;
+      margin-left: 10%;
+      text-align: justify;
+    }
+    .welcome-p {
+      position: relative;
+      font-weight: 400;
+      color: $blue;
+      top: -45px;
+      line-height: 21px;
+    }
+    .enter-p {
+      position: relative;
+      top: -30px;
+      font-weight: 700;
+      color: $red;
+      font-size: 45px;
+      line-height: 0px;
+    }
+}

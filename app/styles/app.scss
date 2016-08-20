@@ -1,17 +1,18 @@
 @import "partials/base";
-
-// cream - #FAFAFA
-// yellow - #EAC281
-// brown - #423636
-// red - #F0544F
-// blue - 17BEBB
+p {
+  color: $brown;
+  font-family: "Raleway";
+}
 
 body {
   background: #FAFAFA;
 }
 a {
   text-decoration: none;
-  color: #423636;
+  color: $brown;
+  &:hover {
+    color: $blue;
+  }
 }
 
 nav {
@@ -26,15 +27,13 @@ nav {
 .site-title {
   border: solid 1px black;
   line-height: 2px;
-  color: #423636;
+  color: $brown;
   .designer {
-    font-family: "Raleway";
     font-weight: bolder;
     font-size: 36px;
     letter-spacing: 1px;
   }
   .toy-awards {
-    font-family: "Raleway";
     font-weight: 200;
     font-size: 25px;
   }
