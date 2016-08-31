@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="561px" height="584px" viewBox="0 0 561 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="561px" height="656px" viewBox="0 0 561 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Sofubi</title>
     <desc>Created with Sketch.</desc>
@@ -52,7 +52,7 @@
     </defs>
     <g id="Characters" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Sofubi">
-            <g id="t-sofubi" transform="translate(148.500000, 329.000000) scale(-1, 1) translate(-148.500000, -329.000000) translate(0.000000, 203.000000)">
+            <g id="t-sofubi" transform="translate(148.500000, 401.000000) scale(-1, 1) translate(-148.500000, -401.000000) translate(0.000000, 275.000000)">
                 <g id="Group-16" transform="translate(106.804595, 82.500000) rotate(18.000000) translate(-106.804595, -82.500000) translate(13.304595, 26.500000)">
                     <g id="Group-14" transform="translate(59.387844, 55.589798) rotate(49.000000) translate(-59.387844, -55.589798) translate(37.887844, -4.410202)">
                         <path d="M42.9586905,108.380588 L43,108.380588 L43,31.3791437 L0,31.3791437 L0,108.380588 L0.0413095411,108.380588 C0.734948452,114.826171 10.0771772,119.930805 21.5,119.930805 C32.9228228,119.930805 42.2650515,114.826171 42.9586905,108.380588 Z" id="Combined-Shape" fill="#00BEBC"></path>
@@ -85,7 +85,7 @@
                     <path d="M97.7253573,125.649024 C110.320462,125.649024 107.03676,86.4958844 108.078703,59.5321307 C98.4927655,64.05736 103.028355,66.6976443 97.7253577,66.8875908 C92.6068403,67.0709294 93.2741852,68.4127325 87.3005762,72.0119749 C83.8749354,89.8138958 85.1302524,125.649024 97.7253573,125.649024 Z" id="Oval-28" fill="url(#linearGradient-8)" transform="translate(96.869907, 92.590577) scale(-1, 1) rotate(-25.000000) translate(-96.869907, -92.590577) "></path>
                 </g>
             </g>
-            <g id="Best-Sofubi" transform="translate(388.000000, 259.500000) scale(-1, 1) translate(-388.000000, -259.500000) translate(215.000000, 0.000000)">
+            <g id="Best-Sofubi" transform="translate(388.000000, 331.500000) scale(-1, 1) translate(-388.000000, -331.500000) translate(215.000000, 72.000000)">
                 <g id="Striped-Shirt" filter="url(#filter-9)" transform="translate(39.800038, 275.163404)">
                     <path d="M69.8844042,0.988902128 C-1.50855527,96.7841368 0.116734135,207.077837 0.116734135,207.077837 C0.116734135,207.077837 41.8729373,242.767015 133.220251,242.34867 C224.567564,241.930326 275.471376,207.077837 275.471376,207.077837 C275.471376,207.077837 264.7292,91.4196551 215.882895,25.2490747" id="Path-5" fill="#F2534A"></path>
                     <path d="M26.8730722,76.9754501 C74.6070015,100.865422 113.487982,107.707161 134.244198,108.186475 C155.000414,108.665789 210.937839,97.0997 244.474534,78.2124455 C250.791117,91.8782268 255.040973,108.594892 255.040973,108.594892 C255.040973,108.594892 144.700588,178.145214 16.8103527,107.688937 C19.5079322,95.1519982 24.166865,83.2755542 26.8730722,76.9754501 Z" id="Path-45" fill="#00BEBC"></path>
@@ -113,7 +113,7 @@
                 <ellipse id="Oval-5" fill="#00BEBC" cx="254.443098" cy="200.055965" rx="8.36491269" ry="22.6077183"></ellipse>
                 <ellipse id="Oval-6" stroke="#4A4A4A" fill="#423636" cx="256.024404" cy="208.7448" rx="2.50947381" ry="7.53590609"></ellipse>
             </g>
-            <g id="Plaque" transform="translate(175.000000, 539.000000)">
+            <g id="Plaque" transform="translate(175.000000, 611.000000)">
                 <g id="Group" stroke-width="1" fill-rule="evenodd">
                     <use id="Rectangle-28" stroke="#FADAA8" mask="url(#mask-11)" stroke-width="8" fill="#FFC871" xlink:href="#path-10"></use>
                     <circle id="Oval-17" fill="#FADAA8" cx="313.5" cy="12.5" r="2.5"></circle>
@@ -125,6 +125,7 @@
                     <tspan x="89.7551221" y="30">BEST SOFUBI</tspan>
                 </text>
             </g>
+            <rect id="Rectangle-36" fill="#FAFAFA" x="243" y="0" width="1" height="1"></rect>
         </g>
     </g>
 </svg>

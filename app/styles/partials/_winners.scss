@@ -10,7 +10,49 @@
     // display: flex;
     // justify-content: center;
     margin-left: 10%;
-    width: 80%;
+    width: 800px;
+    z-index: -1;
+    position: relative;
+    top: 500px;
+  }
+
+  .winners-img-div {
+    width: 700px;
+    border: 1px solid black;
+    margin-left: 15%;
+  }
+
+  .winners-toy {
+    border: 1px solid black;
+    height: 200px;
+    z-index: auto;
+    position: relative;
+    top: -467px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .shelf-one {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .shelf-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+  }
+
+  .shelf-three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+  }
+
+  .shelf-four {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
   }
 
 }
