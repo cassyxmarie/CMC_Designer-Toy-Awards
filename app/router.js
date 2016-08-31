@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('news');
   this.route('panel');
   this.route('sponsors');
+  this.route('home');
 });
 
 export default Router;

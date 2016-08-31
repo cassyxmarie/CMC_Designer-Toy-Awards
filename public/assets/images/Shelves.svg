@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2278px" height="2358px" viewBox="0 0 2278 2358" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Shelves</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Characters" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shelves" transform="translate(0.000000, -0.000000)">
+            <g id="Shelf-One">
+                <polygon id="Path-1" fill="#685353" points="3.03636005 195.800263 78.9453614 195.800263 78.9453614 370.239743"></polygon>
+                <rect id="Rectangle-1" fill="#423636" x="0" y="139.128815" width="2277.27004" height="58.1464936"></rect>
+                <polygon id="Rectangle-1" fill="#685353" points="174.485106 0.368213451 2102.78503 0.368213451 2277.27004 139.748506 0 139.748506"></polygon>
+                <polygon id="Path-1" fill="#685353" transform="translate(2236.279180, 283.020003) scale(-1, 1) translate(-2236.279180, -283.020003) " points="2198.32468 195.800263 2274.23368 195.800263 2274.23368 370.239743"></polygon>
+            </g>
+            <g id="Shelf-One" transform="translate(0.000000, 664.000000)">
+                <polygon id="Path-1" fill="#685353" points="3.03636005 195.800263 78.9453614 195.800263 78.9453614 370.239743"></polygon>
+                <rect id="Rectangle-1" fill="#423636" x="0" y="139.128815" width="2277.27004" height="58.1464936"></rect>
+                <polygon id="Rectangle-1" fill="#685353" points="174.485106 0.368213451 2102.78503 0.368213451 2277.27004 139.748506 0 139.748506"></polygon>
+                <polygon id="Path-1" fill="#685353" transform="translate(2236.279180, 283.020003) scale(-1, 1) translate(-2236.279180, -283.020003) " points="2198.32468 195.800263 2274.23368 195.800263 2274.23368 370.239743"></polygon>
+            </g>
+            <g id="Shelf-One" transform="translate(0.000000, 1327.000000)">
+                <polygon id="Path-1" fill="#685353" points="3.03636005 195.800263 78.9453614 195.800263 78.9453614 370.239743"></polygon>
+                <rect id="Rectangle-1" fill="#423636" x="0" y="139.128815" width="2277.27004" height="58.1464936"></rect>
+                <polygon id="Rectangle-1" fill="#685353" points="174.485106 0.368213451 2102.78503 0.368213451 2277.27004 139.748506 0 139.748506"></polygon>
+                <polygon id="Path-1" fill="#685353" transform="translate(2236.279180, 283.020003) scale(-1, 1) translate(-2236.279180, -283.020003) " points="2198.32468 195.800263 2274.23368 195.800263 2274.23368 370.239743"></polygon>
+            </g>
+            <g id="Shelf-One" transform="translate(639.000000, 2009.000000)">
+                <polygon id="Path-1" fill="#685353" points="1.33290608 173.800263 34.6555581 173.800263 34.6555581 348.239743"></polygon>
+                <rect id="Rectangle-1" fill="#423636" x="0" y="117.128815" width="999.679561" height="58.1464936"></rect>
+                <polygon id="Rectangle-1" fill="#685353" points="76.5957447 0 923.08386 0 999.679561 117.748506 0 117.748506"></polygon>
+                <polygon id="Path-1" fill="#685353" transform="translate(981.685329, 261.020003) scale(-1, 1) translate(-981.685329, -261.020003) " points="965.024003 173.800263 998.346655 173.800263 998.346655 348.239743"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

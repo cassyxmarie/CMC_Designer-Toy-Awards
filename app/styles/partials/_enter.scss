@@ -3,15 +3,18 @@
 .enter-img {
   position: fixed;
   right: 0;
-  bottom: 0;
+  top: 30%;
   width: 30%;
 }
 
 .enter-box {
   width: 500px;
   height: 500px;
-  border: 1px solid black;
+  // border: 1px solid black;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
     .designer-p {
       position: relative;
       font-weight: 700;
@@ -58,5 +61,8 @@
       color: $red;
       font-size: 45px;
       line-height: 0px;
+        &:hover {
+          color: $gold;
+        }
     }
 }
