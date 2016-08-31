@@ -6,6 +6,39 @@
   padding: none;
   }
 
+  .winners-title {
+    border: 1px solid black;
+    width: 430px;
+  }
+
+  .designer-p {
+    position: relative;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 0px;
+    top: 0px;
+  }
+
+  .toyawards-p {
+    position: relative;
+    font-weight: 200;
+    font-size: 66px;
+    line-height: 0px;
+    margin-left: 5px;
+    top: -10px;
+  }
+
+  .year-p {
+    color: $red;
+    position: relative;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 0px;
+    top: -30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .winners-shelf {
     // display: flex;
     // justify-content: center;
@@ -13,21 +46,21 @@
     width: 800px;
     z-index: -1;
     position: relative;
-    top: 500px;
+    top: 100px;
   }
 
-  .winners-img-div {
-    width: 700px;
-    border: 1px solid black;
-    margin-left: 15%;
-  }
+  // .winners-img-div {
+  //   width: 700px;
+  //   border: 1px solid black;
+  //   margin-left: 15%;
+  // }
 
   .winners-toy {
     border: 1px solid black;
     height: 200px;
     z-index: auto;
     position: relative;
-    top: -467px;
+    top: -867px;
     display: flex;
     justify-content: space-between;
   }
@@ -35,24 +68,32 @@
   .shelf-one {
     display: flex;
     justify-content: space-between;
+    width: 750px;
+    margin-left: 12%
   }
 
   .shelf-two {
     display: flex;
     justify-content: space-between;
     margin-top: 31px;
+    width: 750px;
+    margin-left: 12%
   }
 
   .shelf-three {
     display: flex;
     justify-content: space-between;
     margin-top: 31px;
+    width: 750px;
+    margin-left: 12%
   }
 
   .shelf-four {
     display: flex;
     justify-content: center;
-    margin-top: 31px;
+    margin-top: 29px;
+    width: 750px;
+    margin-left: 12%
   }
 
 }
