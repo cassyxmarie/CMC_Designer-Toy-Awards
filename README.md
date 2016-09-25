@@ -40,7 +40,6 @@ You will need the following things properly installed on your computer.
 * Bower
 * HTML
 * Sass
-* Firebase
 
 ## Further Reading / Useful Links
 
