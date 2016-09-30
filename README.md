@@ -4,6 +4,8 @@
 
 #### By _**Cassandra Culkins**_ 
 
+![alt text](http://i.imgur.com/Y6e9DXX.png "Logo Title Text 1")
+
 ## Description
 
 _Full multi-page design recreation of the designertoyawards.com website using original illustrations. Build still in-progress._
