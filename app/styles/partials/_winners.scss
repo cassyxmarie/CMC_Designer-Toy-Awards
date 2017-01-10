@@ -39,61 +39,25 @@
     justify-content: flex-end;
   }
 
-  .winners-shelf {
-    // display: flex;
-    // justify-content: center;
-    margin-left: 10%;
-    width: 800px;
-    z-index: -1;
-    position: relative;
-    top: 100px;
+  .toyIMG {
+    max-height: 300px;
+    margin-bottom: 20px;
   }
 
-  // .winners-img-div {
-  //   width: 700px;
-  //   border: 1px solid black;
-  //   margin-left: 15%;
-  // }
-
-  .winners-toy {
-    // border: 1px solid black;
-    height: 200px;
-    z-index: auto;
-    position: relative;
-    top: -867px;
-    display: flex;
-    justify-content: space-between;
+  div.scrollmenu {
+    background-color: $cream;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
   }
 
-  .shelf-one {
-    display: flex;
-    justify-content: space-between;
-    width: 750px;
-    margin-left: 12%
+  div.scrollmenu a {
+      display: inline-block;
+      padding: 14px;
   }
 
-  .shelf-two {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 31px;
-    width: 750px;
-    margin-left: 12%
+  div.scrollmenu a:hover {
+      background-color: #777;
   }
 
-  .shelf-three {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 31px;
-    width: 750px;
-    margin-left: 12%
   }
-
-  .shelf-four {
-    display: flex;
-    justify-content: center;
-    margin-top: 29px;
-    width: 750px;
-    margin-left: 12%
-  }
-
-}
