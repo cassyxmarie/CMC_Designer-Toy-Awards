@@ -1,0 +1,21 @@
+@import "variables-mixins";
+
+.intro-page {
+  height: 650px;
+  // background: $blue;
+  background: url('/assets/images/crown.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// @media only screen and (max-device-width: 1024px) {
+//   .intro-page {
+//       background-attachment: scroll;
+//   }
+// }
+
+// .parallax-background {
+//   background: url('/assets/images/scrollCUSTOM.png');
+// }

@@ -49,8 +49,11 @@
     background-color: $cream;
     overflow: auto;
     white-space: nowrap;
-    // padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
   }
+
+
 
   div.scrollmenu a {
       display: inline-block;
