@@ -1,19 +1,24 @@
 @import "variables-mixins";
 
+
+.enter-page {
+  height: 700px;
+}
+
 .enter-img {
-  position: fixed;
-  right: 0;
-  top: 30%;
-  width: 30%;
+  position: absolute;
+  width: 300px;
+  right: 0px;
+  top: 100px;
 }
 
 .enter-box {
   width: 500px;
   height: 500px;
+  top: 100px;
   // border: 1px solid black;
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   left: 10%;
     .designer-p {
       position: relative;

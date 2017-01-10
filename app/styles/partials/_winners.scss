@@ -1,5 +1,5 @@
 @import "variables-mixins";
-.winners {
+.winners-page {
 
   .main-img {
   // border: 1px solid black;
@@ -41,19 +41,20 @@
 
   .toyIMG {
     max-height: 300px;
-    margin-bottom: 20px;
+    padding: 20px;
+    // margin-bottom: 100px;
   }
 
   div.scrollmenu {
     background-color: $cream;
     overflow: auto;
     white-space: nowrap;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
   }
 
   div.scrollmenu a {
       display: inline-block;
-      padding: 14px;
+      // padding: 14px;
   }
 
   div.scrollmenu a:hover {
