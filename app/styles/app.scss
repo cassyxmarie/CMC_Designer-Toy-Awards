@@ -15,7 +15,7 @@ a {
   }
 }
 
-nav {
+.nav {
   font-family: "Arvo";
   font-weight: 400;
   // border: 1px solid black;
@@ -24,7 +24,7 @@ nav {
   max-width: 940px;
   min-width: 415px;
   position: relative;
-  margin-left: 180px;
+  margin-left: 20%;
   top: -36px
 }
 
@@ -32,6 +32,7 @@ nav {
   // border: solid 1px black;
   line-height: 2px;
   color: $brown;
+  margin-left: 5%;
   .designer {
     font-weight: bolder;
     font-size: 36px;

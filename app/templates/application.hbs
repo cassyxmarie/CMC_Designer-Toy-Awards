@@ -1,4 +1,7 @@
-
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
   <div class="header">
     {{#link-to 'index'}}
       <div class="site-title">
@@ -7,11 +10,13 @@
       </div>
     {{/link-to}}
     <nav>
-    {{#link-to 'winners'}}Winners{{/link-to}}
-    {{#link-to 'awards'}}Awards{{/link-to}}
-    {{#link-to 'news'}}News{{/link-to}}
-    {{#link-to 'panel'}}DTA Panel{{/link-to}}
-    {{#link-to 'sponsors'}}Sponsors{{/link-to}}
+      <div class="nav">
+      {{#link-to 'winners'}}Winners{{/link-to}}
+      {{#link-to 'awards'}}Awards{{/link-to}}
+      {{#link-to 'news'}}News{{/link-to}}
+      {{#link-to 'panel'}}DTA Panel{{/link-to}}
+      {{#link-to 'sponsors'}}Sponsors{{/link-to}}
+      </div>
     </nav>
   </div>
 
