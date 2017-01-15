@@ -5,6 +5,14 @@
   height: 700px;
 }
 
+.banner {
+  background: $red;
+  font-size: 14px;
+  a {
+    color: $gold;
+  }
+}
+
 .red-text {
   color: $red;
   font-weight: 700;
