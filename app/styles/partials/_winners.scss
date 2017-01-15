@@ -6,11 +6,6 @@
   padding: none;
   }
 
-  .winners-title {
-    // border: 1px solid black;
-    width: 430px;
-  }
-
   .designer-p {
     position: relative;
     font-weight: 700;
@@ -45,7 +40,7 @@
     // margin-bottom: 100px;
   }
 
-  div.scrollmenu {
+  div.scrollmenu-winners {
     background-color: $cream;
     overflow: auto;
     white-space: nowrap;
@@ -55,13 +50,15 @@
 
 
 
-  div.scrollmenu a {
+  div.scrollmenu-winners a {
       display: inline-block;
+      border: 2px solid $cream;
+
       // padding: 14px;
   }
 
-  div.scrollmenu a:hover {
-      background-color: #777;
+  div.scrollmenu-winners a:hover {
+      border: 2px solid $blue;
   }
 
-  }
+}

@@ -1,1 +1,38 @@
 @import "variables-mixins";
+.judging-page {
+
+  .judge-name {
+    font-family: "Arvo";
+    font-weight: 700;
+    color: $blue;
+    line-height: 7px;
+  }
+
+  .judge-title {
+    font-family: "Arvo";
+    font-weight: 400;
+    color: $brown;
+    line-height: 0px;
+    padding-bottom: 15px;
+  }
+
+  .judge-group {
+    width: 300px;
+  }
+
+  div.scrollmenu-judging {
+    background-color: $cream;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+
+  div.scrollmenu-judging a {
+      display: inline-block;
+      border: 2px solid $cream;
+
+      // padding: 14px;
+  }
+
+}

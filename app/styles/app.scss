@@ -46,3 +46,21 @@ a {
     margin-left: 2.5px;
   }
 }
+.header-title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title-bold {
+  font-weight: 700;
+  color: $blue;
+  font-size: 40px;
+  line-height: 0px;
+}
+
+.title-thin {
+  font-weight: 400;
+  color: $brown;
+  font-size: 40px;
+  line-height: 0px;
+}
