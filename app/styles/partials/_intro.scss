@@ -10,6 +10,44 @@
   background-size: cover;
 }
 
+
+.toyKingContent {
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.toyKing {
+  width: 300px;
+}
+
+.toyKingBlurb {
+  font-weight: 500;
+  width: 365px;
+  height: 475px;
+  padding: 10px;
+  text-align: center;
+}
+
+.meet {
+  font-family: "Arvo";
+  color: $gold;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 45px;
+  .brown {
+    font-family: "Raleway";
+    font-weight: 500;
+    color: $brown;
+    font-size: 45px;
+
+  }
+}
+
+
 // @media only screen and (max-device-width: 1024px) {
 //   .intro-page {
 //       background-attachment: scroll;
