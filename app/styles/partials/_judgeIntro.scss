@@ -1,0 +1,66 @@
+@import "variables-mixins";
+
+.judge-intro {
+  height: 650px;
+  background: url('/assets/images/toy2.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  .judge-panel {
+    width: 700px;
+  }
+
+  .judge-content {
+    background: rgba(255, 255, 255, 0.7);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .judge-img {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .judge-blurb {
+    position: relative;
+    top: -100px;
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    .title {
+      color: $gold;
+      font-size: 52px;
+      font-weight: 600;
+      line-height: 60px;
+      margin: 0px;
+    }
+    .subtitle {
+      font-size: 70px;
+      font-size: 200;
+      line-height: 60px;
+      margin: 0px
+    }
+    .body {
+      line-height: 21px;
+      font-family: "Arvo";
+      margin-top: 31px;
+      margin-left: 15px;
+    }
+  }
+
+}
