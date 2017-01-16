@@ -44,9 +44,7 @@
     background-color: $cream;
     overflow: auto;
     white-space: nowrap;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
 
 
@@ -54,7 +52,7 @@
   div.scrollmenu-winners a {
       display: inline-block;
       border: 2px solid $cream;
-
+      height: 500px;
       // padding: 14px;
   }
 
@@ -66,4 +64,29 @@
     border: 1px $cream solid;
   }
 
+  .win-text {
+    width: 279px;
+    position: relative;
+    top: -135px;
+    float: right;
+  }
+
+  .win-award {
+    font-weight: bold;
+    font-family: "Arvo";
+    line-height: 0px;
+    margin-bottom: 25px;
+  }
+  .win-name {
+    color: $blue;
+    font-weight: bold;
+    line-height: 0px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+  }
+  .second-line {
+    line-height: 50px;
+  }
 }
