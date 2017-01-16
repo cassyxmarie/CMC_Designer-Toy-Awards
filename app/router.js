@@ -6,12 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('winners');
-  this.route('awards');
-  this.route('news');
-  this.route('panel');
-  this.route('sponsors');
-  this.route('home');
+  this.route('about');
+  this.route('participation');
+  this.route('news-media');
 });
 
 export default Router;
