@@ -15,17 +15,25 @@ a {
   }
 }
 
-.nav {
+nav {
+
   font-family: "Arvo";
   font-weight: 400;
-  // border: 1px solid black;
-  display: flex;
-  justify-content: space-between;
-  max-width: 940px;
-  min-width: 415px;
-  position: relative;
-  margin-left: 20%;
-  top: -36px
+  background: $cream;
+  height: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .site-title {

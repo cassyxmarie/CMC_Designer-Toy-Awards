@@ -1,1 +1,84 @@
 @import "variables-mixins";
+
+.about-page{
+  height: 650px;
+  border: 1px solid red;
+  p {
+    width: 50%;
+  }
+}
+
+.history-page {
+  height: 650px;
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  .history-container {
+    border: 1px solid pink;
+    width: 1040px;
+    height: 650px;
+    padding-top: 40px;
+  .history-img {
+    width: 700px;
+    float: right;
+    padding-right: 60px;
+  }
+  .p1, .p2, .p3, .p4, .p5 {
+    width: 240px;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+  }
+  .p1 {
+    padding-top: 23px;
+  }
+  .header {
+    float: left;
+    text-align: center;
+    padding-left: 10px;
+  .head1 { //same as meet in intro
+    font-family: "Arvo";
+    color: $gold;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .head2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    color: $brown;
+    font-size: 45px;
+  }
+}
+
+  }
+}
+
+.clutter-page {
+  height: 650px;
+  border: 1px solid yellow;
+  p {
+    width: 50%;
+  }
+}
+
+.contact-page {
+  height: 650px;
+  border: 1px solid green;
+}
+
+
+.sponsors-page {
+  border: 1px solid blue;
+  height: 650px;
+  .sponsor-img {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+  }
+}
+
+.donate-page {
+  height: 650px;
+  border: 1px solid purple;
+}
