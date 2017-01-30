@@ -8,57 +8,45 @@
   }
 }
 
-.history-page {
-  height: 650px;
-  border: 1px solid orange;
-  display: flex;
-  justify-content: center;
-  .history-container {
-    border: 1px solid pink;
-    width: 1040px;
-    height: 650px;
-    padding-top: 40px;
-  .history-img {
-    width: 700px;
-    float: right;
-    padding-right: 60px;
-  }
-  .p1, .p2, .p3, .p4, .p5 {
-    width: 240px;
-    float: left;
-    text-align: justify;
-    padding: 10px;
-  }
-  .p1 {
-    padding-top: 23px;
-  }
-  .header {
-    float: left;
-    text-align: center;
-    padding-left: 10px;
-  .head1 { //same as meet in intro
-    font-family: "Arvo";
-    color: $gold;
-    font-size: 55px;
-    font-weight: 600;
-    line-height: 45px;
-  }
-  .head2 {
-    font-family: "Raleway";
-    font-weight: 500;
-    color: $brown;
-    font-size: 45px;
-  }
-}
-
-  }
-}
-
 .clutter-page {
   height: 650px;
-  border: 1px solid yellow;
+  background: url('/assets/images/ClutterLogoBG.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .clutter-img {
+    float: left;
+    height: 300px;
+  }
+  .clutter-container {
+    background: rgba(255, 255, 255, 0.7);
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .clutter-text{
+    float: right;
+  }
+  .clutter-title {
+    float: left;
+    color: $gold;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 0px;
+  }
   p {
-    width: 50%;
+    float: left;
+    line-height: 21px;
+    font-family: "Arvo";
+    width: 70%;
   }
 }
 
@@ -71,10 +59,13 @@
 .sponsors-page {
   border: 1px solid blue;
   height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .sponsors-container{
   .sponsor-img {
-    display: flex;
-    justify-content: center;
-    height: 500px;
+    height: 550px;
+  }
   }
 }
 

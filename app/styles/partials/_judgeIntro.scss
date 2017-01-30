@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    .title {
+    .title { //used other places
       color: $gold;
       font-size: 52px;
       font-weight: 600;
@@ -55,7 +55,7 @@
       line-height: 60px;
       margin: 0px
     }
-    .body {
+    .body { //used other places
       line-height: 21px;
       font-family: "Arvo";
       margin-top: 31px;
