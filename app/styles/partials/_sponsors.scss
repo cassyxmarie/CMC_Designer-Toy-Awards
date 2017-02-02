@@ -1,11 +1,46 @@
 @import "variables-mixins";
 
 .about-page{
+  background-color: $blue;
   height: 650px;
-  border: 1px solid red;
-  p {
-    width: 50%;
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+.about-container {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  height: 450px;
+  width: 1000px;
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+.img-container {
+  padding-top: 100px;
+  float: right;
+  // border: 1px solid red;
+}
+  .about-img {
+    width: 400px;
+    padding-right: 10px;
   }
+  .text-container {
+    float: left;
+
+    .page-head1, .page-head2 {
+      margin: 0px;
+    }
+    .p1 {
+      padding: 3px
+    }
+    .p2 {
+      padding: 3px;
+    }
+  p {
+    width: 100%;
+  }
+}
 }
 
 .clutter-page {
@@ -20,33 +55,40 @@
   align-items: center;
   justify-content: center;
 
-  .clutter-img {
-    float: left;
-    height: 300px;
-  }
   .clutter-container {
     background: rgba(255, 255, 255, 0.7);
     width: 800px;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
+  }
+  .clutter-img {
+  height: 100%;
+  border: 1px solid red;
+  }
+  img {
+    padding: 20px;
+    width: 400px;
   }
   .clutter-text{
     float: right;
+    padding: 20px;
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    align-items: center;
   }
   .clutter-title {
-    float: left;
     color: $gold;
     font-size: 52px;
     font-weight: 600;
     line-height: 0px;
   }
-  p {
-    float: left;
+  .clutter-body{
     line-height: 21px;
     font-family: "Arvo";
-    width: 70%;
+    text-align: justify;
   }
 }
 

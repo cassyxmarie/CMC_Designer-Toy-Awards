@@ -42,14 +42,12 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    .title { //used other places
-      color: $gold;
-      font-size: 52px;
+    .page-head1 { //used other places
+      font-size: 47px;
       font-weight: 600;
-      line-height: 60px;
       margin: 0px;
     }
-    .subtitle {
+    .page-head2 {
       font-size: 70px;
       font-size: 200;
       line-height: 60px;
