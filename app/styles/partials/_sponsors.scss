@@ -62,16 +62,17 @@
     height: 500px;
     display: flex;
     align-items: center;
+    justify-content: center;
         // justify-content: center;
   }
   .clutter-img {
-  height: 70%;
+  height: 80%;
   // border: 1px solid red;
   float: left;
   }
   img {
     padding: 20px;
-    width: 40%;
+    width: 30%;
   }
   .clutter-text{
     padding: 20px;
@@ -104,19 +105,27 @@
 
 
 .sponsors-page {
+
   border: 1px solid blue;
   height: 650px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
   .sponsors-container{
-  .sponsor-img {
-    height: 550px;
-  }
-  }
-}
+    float: left;
+    width: 50%;
+    border: 1px solid green;
+    margin: 20px;
 
-.donate-page {
-  height: 650px;
-  border: 1px solid purple;
+  .sponsor-img {
+    padding-top: 30px;
+    height: 450px;
+  }
+  }
+  .donate-container {
+    float: right;
+    width: 43%;
+    margin: 20px;
+    // height: 650px;
+    border: 1px solid purple;
+  }
 }
