@@ -31,7 +31,6 @@
     padding: 0px;
     display: flex;
     justify-content: center;
-
   }
 
   .judge-blurb {
@@ -42,15 +41,18 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
+
     .page-head1 { //used other places
       font-size: 47px;
       font-weight: 600;
     }
+
     .page-head2 {
       font-size: 70px;
       font-size: 200;
       line-height: 60px;
     }
+
     .body { //used other places
       line-height: 21px;
       font-family: "Arvo";
@@ -58,5 +60,4 @@
       margin-left: 15px;
     }
   }
-
 }

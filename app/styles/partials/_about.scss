@@ -7,38 +7,45 @@
   display: flex;
   align-items: center;
   justify-content: center;
-.about-container {
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.7);
-  height: 450px;
-  width: 1000px;
-  // border: 1px solid red;
-  display: flex;
-  align-items: center;
-}
-.img-container {
-  padding-top: 100px;
-  float: right;
-  // border: 1px solid red;
-}
+
+  .about-container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    height: 450px;
+    width: 1000px;
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+  }
+
+  .img-container {
+    padding-top: 100px;
+    float: right;
+    // border: 1px solid red;
+  }
+
   .about-img {
     width: 400px;
     padding-right: 10px;
   }
+
   .text-container {
     float: left;
 
     .page-head1, .page-head2 {
       margin: 0px;
     }
+
     .p1 {
       padding: 3px
     }
+
     .p2 {
       padding: 3px;
     }
-  p {
-    width: 100%;
+    
+    p {
+      width: 100%;
+    }
   }
-}
 }

@@ -1,4 +1,5 @@
 @import "partials/base";
+
 p {
   color: $brown;
   font-family: "Raleway";
@@ -7,16 +8,17 @@ p {
 body {
   background: #FAFAFA;
 }
+
 a {
   text-decoration: none;
   color: $brown;
+
   &:hover {
     color: $blue;
   }
 }
 
 nav {
-
   font-family: "Arvo";
   font-weight: 400;
   background: $cream;
@@ -29,7 +31,6 @@ nav {
   left: 0px;
   right: 0px;
 
-
   .nav {
     display: flex;
     justify-content: space-between;
@@ -41,11 +42,13 @@ nav {
   line-height: 2px;
   color: $brown;
   margin-left: 5%;
+
   .designer {
     font-weight: bolder;
     font-size: 36px;
     letter-spacing: 1px;
   }
+
   .toy-awards {
     position: relative;
     top: -2px;
@@ -54,6 +57,7 @@ nav {
     margin-left: 2.5px;
   }
 }
+
 .header-title {
   margin-top: 40px;
   display: flex;

@@ -1,25 +1,23 @@
 @import "variables-mixins";
 
-
-
-
 .sponsors-page {
-
   border: 1px solid blue;
   height: 650px;
   // display: flex;
   // align-items: center;
+
   .sponsors-container{
     float: left;
     width: 50%;
     border: 1px solid green;
     margin: 20px;
 
-  .sponsor-img {
-    padding-top: 30px;
-    height: 450px;
+    .sponsor-img {
+      padding-top: 30px;
+      height: 450px;
+    }
   }
-  }
+
   .donate-container {
     float: right;
     width: 43%;

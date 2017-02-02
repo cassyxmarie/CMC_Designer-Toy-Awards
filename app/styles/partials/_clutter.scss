@@ -22,32 +22,37 @@
     justify-content: center;
         // justify-content: center;
   }
+
   .clutter-img {
-  height: 80%;
-  // border: 1px solid red;
-  float: left;
+    height: 80%;
+    // border: 1px solid red;
+    float: left;
   }
+
   img {
     padding: 20px;
     width: 30%;
   }
+
   .clutter-text{
     padding: 20px;
     // border: 1px solid red;
     height: 70%;
     width: 50%;
     float: right;
-
   }
+
   p {
     float: left;
   }
+
   .clutter-title {
     color: $gold;
     font-size: 52px;
     font-weight: 600;
     line-height: 0px;
   }
+
   .clutter-body{
     line-height: 21px;
     font-family: "Arvo";

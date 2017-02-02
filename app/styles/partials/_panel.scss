@@ -1,4 +1,5 @@
 @import "variables-mixins";
+
 .judging-page {
   height: 575px;
 
@@ -32,8 +33,6 @@
   div.scrollmenu-judging a {
       display: inline-block;
       border: 2px solid $cream;
-
       // padding: 14px;
   }
-
 }
