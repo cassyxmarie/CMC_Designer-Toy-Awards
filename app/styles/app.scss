@@ -100,3 +100,22 @@ nav {
   font-size: 45px;
   margin: 0px;
 }
+
+footer {
+  background: $brown;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#twitter {
+  padding-top: 7px;
+  padding-left: 35px;
+}

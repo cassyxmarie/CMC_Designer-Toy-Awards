@@ -1,7 +1,7 @@
 @import "variables-mixins";
 
 .sponsors-page {
-  border: 1px solid blue;
+  // border: 1px solid blue;
   height: 650px;
   // display: flex;
   // align-items: center;
@@ -9,7 +9,7 @@
   .sponsors-container{
     float: left;
     width: 50%;
-    border: 1px solid green;
+    // border: 1px solid green;
     margin: 20px;
 
     .sponsor-img {
@@ -18,10 +18,21 @@
     }
   }
 
+  .img-box {
+    float: right;
+    width: 550px;
+    height: 270px;
+    border: 1px solid blue;
+
+    .donate-img {
+      height: 270px;
+    }
+  }
+
   .donate-container {
     float: right;
     width: 43%;
     margin: 20px;
-    border: 1px solid purple;
+    // border: 1px solid purple;
   }
 }

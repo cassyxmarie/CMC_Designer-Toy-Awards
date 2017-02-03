@@ -1,7 +1,7 @@
 @import "variables-mixins";
 
 .about-page {
-  background-color: $blue;
+  background-color: $gold;
   height: 650px;
   // border: 1px solid red;
   display: flex;
@@ -43,7 +43,7 @@
     .p2 {
       padding: 3px;
     }
-    
+
     p {
       width: 100%;
     }
