@@ -107,6 +107,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .link {

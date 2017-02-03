@@ -1,13 +1,19 @@
-@import "awards";
-@import "enter";
-@import "news";
-@import "panel";
-@import "sponsors";
-@import "winners";
-@import "intro";
 @import "variables-mixins";
+
+@import "enter";
+@import "intro";
+@import "winners";
 @import "judgeIntro";
-@import "history";
+@import "panel";
+
 @import "about";
+@import "history";
 @import "clutter";
+@import "sponsors";
 @import "contact";
+
+@import "news";
+
+@import "process";
+@import "regulations";
+@import "descriptions";
