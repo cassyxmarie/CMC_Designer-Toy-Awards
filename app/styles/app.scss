@@ -105,6 +105,9 @@ nav {
 footer {
   background: $brown;
   height: 100px;
+}
+
+.footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,6 +115,15 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  p {
+    color: white;
+  }
 }
 
 .link {

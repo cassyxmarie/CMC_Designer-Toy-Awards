@@ -1,7 +1,7 @@
 @import "variables-mixins";
 
 .about-page {
-  background-color: $gold;
+  background-color: $blue;
   height: 650px;
   // border: 1px solid red;
   display: flex;
@@ -11,8 +11,8 @@
   .about-container {
     padding: 20px;
     background: rgba(255, 255, 255, 0.7);
-    height: 450px;
-    width: 1000px;
+    height: 500px;
+    width: 1050px;
     // border: 1px solid red;
     display: flex;
     align-items: center;

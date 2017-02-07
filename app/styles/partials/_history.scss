@@ -13,7 +13,11 @@
   .history-img {
     width: 700px;
     float: right;
-    padding-right: 100px;
+    padding-right: 40px;
+  }
+
+  .history-container {
+    width: 1050px;
   }
 
   .p1, .p2, .p3, .p4, .p5 {
@@ -39,7 +43,7 @@
       font-weight: 600;
       line-height: 45px;
     }
-    
+
     .head2 {
       font-family: "Raleway";
       font-weight: 500;

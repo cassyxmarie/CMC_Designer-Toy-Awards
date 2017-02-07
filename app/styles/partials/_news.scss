@@ -1,22 +1,75 @@
 @import "variables-mixins";
 
-.news {
-  height: 650px;
+.news-section {
+  // height: 650px;
   padding-top: 20px;
-  .news-article {
-    width: 60%;
-  }
-  .news-img {
-    height: 300px;
-  }
-  .date {
-    color: $blue;
-    font-weight: bold;
-  }
-  .title {
+  background-color: $blue;
+
+
+  .news-intro {
+    height: 650px;
+    background-color: $gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .intro-container {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      height: 500px;
+      width: 1050px;
+    }
 
   }
-  .article {
+  //
+  // .news-line {
+  //   margin-top: 5px;
+  //   height: 2px;
+  //   background: $gold;
+  //   width: 700px;
+  // }
+  .article-container {
+    // display: flex;
+    // justify-content: center;
+  }
+
+  .news-article {
+    width: 600px;
+    background: rgba(255, 255, 255, 0.7);
+    padding-left: 167px;
+    padding-right: 167px;
+  }
+
+  .title-container {
+    float: left;
+  }
+
+  .date-container {
+    float: right;
+  }
+  .news-title {
+    font-family: "Arvo";
+    font-weight: 600;
+    // color: $gold;
+    font-size: 28px;
+    line-height: 30px;
+
+  }
+  .news-img {
+    width: 600px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .news-date {
+    // color: $gold;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  .news-text {
+    text-align: justify;
 
   }
 }

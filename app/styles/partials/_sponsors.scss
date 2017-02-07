@@ -7,25 +7,28 @@
   // align-items: center;
 
   .sponsors-container{
+    height:  500px;
+
     float: left;
     width: 50%;
-    // border: 1px solid green;
+    border: 1px solid green;
     margin: 20px;
+
 
     .sponsor-img {
       padding-top: 30px;
-      height: 450px;
+      width: 500px;
     }
   }
 
   .img-box {
     float: right;
     width: 550px;
-    height: 270px;
+    height: 200px;
     border: 1px solid blue;
 
     .donate-img {
-      height: 270px;
+      height: 200px;
     }
   }
 
