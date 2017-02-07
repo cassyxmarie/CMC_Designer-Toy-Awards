@@ -41,6 +41,11 @@
     // margin-bottom: 100px;
   }
 
+  #small-width {
+    width: 50px;
+
+  }
+
   div.scrollmenu-winners {
     background-color: $cream;
     overflow: auto;
@@ -48,18 +53,18 @@
     margin-bottom: 25px;
   }
 
-  div.scrollmenu-winners a {
+  div.scrollmenu-winners .win {
     display: inline-block;
     border: 2px solid $cream;
     height: 500px;
     // padding: 14px;
   }
 
-  div.scrollmenu-winners a:hover {
-    border: 2px solid $blue;
-  }
+  // div.scrollmenu-winners .win:hover {
+  //   border: 2px solid $blue;
+  // }
 
-  a .nohover {
+  .win .nohover {
     border: 1px $cream solid;
   }
 

@@ -8,6 +8,9 @@
     font-weight: 700;
     color: $blue;
     line-height: 7px;
+    &:hover {
+      color: $gold;
+    }
   }
 
   .judge-title {
@@ -22,6 +25,10 @@
     width: 300px;
   }
 
+  #small-width {
+    width: 50px;
+  }
+
   div.scrollmenu-judging {
     background-color: $cream;
     overflow: auto;
@@ -30,7 +37,7 @@
     padding-top: 30px;
   }
 
-  div.scrollmenu-judging a {
+  div.scrollmenu-judging .judge-group {
       display: inline-block;
       border: 2px solid $cream;
       // padding: 14px;
