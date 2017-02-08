@@ -9,4 +9,27 @@
     width: 1050px;
     background: rgba(255, 255, 255, 0.7);
   }
+
+  // .descriptions-text {
+  //   width: 200px;
+  //   border: 1px solid orange;
+  //
+  // }
+  div.scrollmenu-description {
+    background-color: $cream;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 25px;
+  }
+
+  div.scrollmenu-description .descriptions {
+    display: inline-block;
+    border: 2px solid $red;
+    height: 500px;
+    // width: 350px;
+  .descriptions-text {
+    width: 250px;
+    border: 1px solid green;
+  }
+}
 }
