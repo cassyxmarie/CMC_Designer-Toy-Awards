@@ -3,4 +3,12 @@
 .regulations-page {
   height: 650px;
   background-color: $red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .regulations-container {
+    height: 500px;
+    width: 1050px;
+    background: rgba(255, 255, 255, 0.7);
+  }
 }

@@ -1,6 +1,12 @@
 @import "variables-mixins";
 
 .descriptions-page {
-  height: 650px;
   background-color: $gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .descriptions-container {
+    width: 1050px;
+    background: rgba(255, 255, 255, 0.7);
+  }
 }

@@ -1,6 +1,49 @@
 @import "variables-mixins";
 
 .process-page {
-  height: 650px;
-  background-color: $blue;
+  height: 800px;
+  background: url('/assets/images/crown.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  display: flex;
+  justify-content: center;
+  align-items: center;
+  .process-container {
+    height: 700px;
+    width: 1050px;
+    background: rgba(255, 255, 255, 0.7);
+    // padding: 50px;
+    .process-text {
+      width: 925px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+    .page-head1 {
+      color: $blue;
+    }
+    .page-head1, .page-head2 {
+      margin-left: -10px;
+    }
+    .process-numbered {
+      font-family: "Arvo";
+      font-weight: 600;
+      color: $blue;
+      font-size: 20px;
+      line-height: 0px;
+      padding-left: 30px;
+    }
+
+    .process-block {
+      padding-left: 50px;
+
+    }
+  }
+
+
+
+
+
 }
