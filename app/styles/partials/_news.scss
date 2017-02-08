@@ -3,13 +3,17 @@
 .news-section {
   // height: 650px;
   // padding-top: 20px;
-  background-color: $blue;
-
+  background: url('/assets/images/crown.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .news-intro {
-    height: 650px;
-    background-color: $gold;
+    height: 675px;
+    background: $blue;
     display: flex;
+    justify-content: center;    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -28,6 +32,10 @@
   //   background: $gold;
   //   width: 700px;
   // }
+  .header-title {
+    background: $cream;
+    margin-top: 0px;
+  }
   .article-container {
     display: flex;
     justify-content: center;
@@ -35,7 +43,7 @@
 
   .news-article {
     width: 600px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.85);
     padding-left: 167px;
     padding-right: 167px;
     padding-top: 20px;
