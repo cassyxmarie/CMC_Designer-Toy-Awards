@@ -3,11 +3,17 @@
 .intro-page {
   height: 675px;
   // background: $blue;
-  background: url('/assets/images/crown.svg');
+  background-image: url(/assets/images/Crown.svg);
+  // background-image: url('../../../../assets/images/crown.svg');
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  display: block;
   padding-left: 75px;
   padding-right: 75px;
 }
