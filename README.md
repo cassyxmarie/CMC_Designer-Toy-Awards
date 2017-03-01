@@ -2,13 +2,15 @@
 
 #### _Full recreation of the Designer Toy Awards website. In-Progress_
 
-#### By _**Cassandra Culkins**_ 
+#### By _**Cassandra Culkins**_
 
 ![alt text](http://i.imgur.com/Y6e9DXX.png "Logo Title Text 1")
 
 ## Description
 
 _Full multi-page design recreation of the designertoyawards.com website using original illustrations. Build still in-progress._
+
+_View the live site here: http://designertoyawards.surge.sh/_
 
 ## Prerequisites
 
@@ -36,7 +38,7 @@ You will need the following things properly installed on your computer.
 
 ## Technologies Used
 
-* Ember 
+* Ember
 * JavaScript
 * Gulp
 * Bower
