@@ -1,5 +1,12 @@
 @import "partials/base";
 
+.app-container {
+  min-width: 1280px;
+  max-width: 1280px;
+  margin: 0px;
+  // padding: 0px;
+}
+
 p {
   color: $brown;
   font-family: "Raleway";
@@ -10,6 +17,7 @@ body {
   padding-top: 15px;
   margin: 0px;
   padding-bottom: 0px;
+
 }
 
 a {
@@ -82,10 +90,17 @@ nav {
 }
 
 .scroll {
-  writing-mode: tb-rl;
+  // writing-mode: tb-rl;
+  
   font-size: 14px;
-  text-orientation: sideways-right;
+  // text-orientation: sideways-right;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
+
 
 .page-head1 {
   font-family: "Arvo";
@@ -112,6 +127,7 @@ footer {
   bottom: 0px;
   left: 0px;
   margin: 0px;
+  padding-top: 20px;
 }
 
 .footer-links {

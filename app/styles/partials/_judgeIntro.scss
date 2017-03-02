@@ -31,6 +31,8 @@
     padding: 0px;
     display: flex;
     justify-content: center;
+    // display: -webkit-flex; /* Safari */
+    // -webkit-justify-content: center; /* Safari 6.1+ */
   }
 
   .judge-blurb {
@@ -40,6 +42,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    // display: -webkit-flex; /* Safari */
+    // -webkit-justify-content: center; /* Safari 6.1+ */
+    // -webkit-align-items: center; /* Safari 6.1+ */
     margin: 0px;
 
     .page-head1 { //used other places

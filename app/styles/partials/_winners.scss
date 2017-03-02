@@ -1,6 +1,7 @@
 @import "variables-mixins";
 
 .winners-page {
+  height: 600px;
 
   .main-img {
     // border: 1px solid black;
@@ -38,26 +39,29 @@
   .toyIMG {
     max-height: 400px;
     padding: 20px;
-    // margin-bottom: 100px;
   }
 
   #small-width {
-    width: 50px;
-
+    width: 20px;
+    height: 20px;
+    position: static;
+    top: -100px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   div.scrollmenu-winners {
     background-color: $cream;
     overflow: auto;
     white-space: nowrap;
-    margin-bottom: 25px;
+    overflow-y: hidden;
   }
 
   div.scrollmenu-winners .win {
     display: inline-block;
     border: 2px solid $cream;
-    height: 500px;
-    // padding: 14px;
+    height: 400px;
   }
 
   // div.scrollmenu-winners .win:hover {

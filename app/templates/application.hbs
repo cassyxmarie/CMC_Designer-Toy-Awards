@@ -1,36 +1,34 @@
-<nav>
-  <div class="nav">
-    {{#link-to 'index'}}Home{{/link-to}}
-    {{#link-to 'about'}}About{{/link-to}}
-    {{#link-to 'news-media'}}News &amp; Media{{/link-to}}
-    {{#link-to 'participation'}}Enter the DTAs{{/link-to}}
-  </div>
-</nav>
+<div class="app-container">
 
-
+  <nav>
+    <div class="nav">
+      {{#link-to 'index'}}Home{{/link-to}}
+      {{#link-to 'about'}}About{{/link-to}}
+      {{#link-to 'news-media'}}News &amp; Media{{/link-to}}
+      {{#link-to 'participation'}}Enter the DTAs{{/link-to}}
+    </div>
+  </nav>
 
   {{outlet}}
   <footer>
 
+    <div class="footer-links">
+      <a class="link" href="http://www.cluttermagazine.com/">
+        <img class="link" src="assets/images/clutter.svg" alt="">
+      </a>
 
+      <a class="link" href="https://www.facebook.com/designertoyawards">
+        <img class="link" src="assets/images/facebook.svg" alt="">
+      </a>
 
+      <a href="https://twitter.com/thetoyawards">
+        <img class="link" id="twitter" src="assets/images/twitter.svg" alt="">
+      </a>
+    </div>
 
-  <div class="footer-links">
-    <a class="link" href="http://www.cluttermagazine.com/">
-      <img class="link" src="assets/images/clutter.svg" alt="">
-    </a>
-
-    <a class="link" href="https://www.facebook.com/designertoyawards">
-      <img class="link" src="assets/images/facebook.svg" alt="">
-    </a>
-
-    <a href="https://twitter.com/thetoyawards">
-      <img class="link" id="twitter" src="assets/images/twitter.svg" alt="">
-    </a>
-  </div>
-
-  <div class="footer-contact">
-    <p>1 (212) 255-2505</p>
-  </div>
+    <div class="footer-contact">
+      <p>1 (212) 255-2505</p>
+    </div>
 
   </footer>
+</div>
