@@ -8,7 +8,8 @@ p {
 body {
   background: #FAFAFA;
   padding-top: 15px;
-
+  margin: 0px;
+  padding-bottom: 0px;
 }
 
 a {
@@ -106,6 +107,11 @@ nav {
 footer {
   background: $brown;
   height: 100px;
+  width: 100%;
+  position: static;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px;
 }
 
 .footer-links {
@@ -119,6 +125,9 @@ footer {
 }
 
 .footer-contact {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 20px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
