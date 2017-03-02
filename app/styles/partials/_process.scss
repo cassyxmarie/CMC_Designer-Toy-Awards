@@ -1,8 +1,11 @@
 @import "variables-mixins";
+.banner-process {
+  background: $red;
+}
 
 .process-page {
   height: 800px;
-  background: url('/assets/images/crown.svg');
+  background: url('/assets/images/crosscrownlarge.svg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

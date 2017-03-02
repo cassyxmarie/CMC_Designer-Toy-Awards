@@ -1,7 +1,11 @@
 @import "variables-mixins";
 
 .about-page {
-  background-color: $blue;
+  background: url('/assets/images/stripes.svg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 650px;
   // border: 1px solid red;
   display: flex;
@@ -34,6 +38,10 @@
 
     .page-head1, .page-head2 {
       margin: 0px;
+    }
+
+    .page-head1 {
+      color: $red;
     }
 
     .p1 {

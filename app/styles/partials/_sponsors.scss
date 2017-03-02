@@ -5,13 +5,16 @@
   height: 650px;
   // display: flex;
   // align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 
   .sponsors-container{
     height:  500px;
 
     float: left;
     width: 50%;
-    border: 1px solid green;
+    // border: 1px solid green;
     margin: 20px;
 
 
@@ -24,12 +27,29 @@
   .img-box {
     float: right;
     width: 550px;
-    height: 200px;
-    border: 1px solid blue;
+    height: 110px;
+    // border: 1px solid blue;
 
     .donate-img {
       height: 200px;
     }
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+    border: none;
+    color: $cream;
+    background: $blue;
+    font: bold;
+    font-size: 14px;
   }
 
   .donate-container {
