@@ -1,6 +1,9 @@
 @import "variables-mixins";
-@media only screen and (min-width: 1000px) {
 
+@media only screen and (min-width: 1000px) {
+  .hide-show2 {
+    display: none;
+  }
   .history-page {
     height: 690px;
     // background: $blue;
@@ -21,7 +24,7 @@
       width: 1050px;
     }
 
-    .p1, .p2, .p3, .p4, .p5 {
+    .p1, .p2, .p3, .p4 {
       width: 240px;
       float: left;
       text-align: justify;
@@ -51,6 +54,28 @@
         color: $brown;
         font-size: 45px;
       }
+    }
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1190px) {
+  .history-page {
+    p {
+      font-size: 13px;
+      width: 200px;
+      float: left;
+      text-align: justify;;
+    }
+
+    .p1, .p2, .p3, .p4 {
+      padding: 5px;
+    }
+
+    .history-img {
+      width: 400px;
+      float: right;
+    }
+    .header {
+      float: right;
     }
   }
 }

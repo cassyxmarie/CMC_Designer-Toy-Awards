@@ -1,4 +1,16 @@
 @import "variables-mixins";
+
+@media only screen and (min-width: 1000px) and (max-width: 1085px) {
+  .judge-blurb {
+    .section2 {
+      width: 450px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
 @media only screen and (min-width: 1000px) {
 
   .judge-intro {
@@ -47,6 +59,7 @@
       // -webkit-justify-content: center; /* Safari 6.1+ */
       // -webkit-align-items: center; /* Safari 6.1+ */
       margin: 0px;
+
 
       .page-head1 { //used other places
         font-size: 47px;

@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="343px" height="529px" viewBox="0 0 343 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="338px" height="518px" viewBox="0 0 338 518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>Group 41</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Characters" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-41" transform="translate(3.000000, 1.000000)">
-            <g id="Resin" filter="url(#filter-1)">
-                <g id="Striped-Shirt" filter="url(#filter-2)" transform="translate(31.800038, 300.163404)">
+        <g id="Group-41">
+            <g id="Resin">
+                <g id="Striped-Shirt" transform="translate(31.800038, 300.163404)">
                     <path d="M52.7686785,2.44357049 C4.87542341,68.9497062 0.116734135,182.077837 0.116734135,182.077837 C0.116734135,182.077837 41.8729373,217.767015 133.220251,217.34867 C224.567564,216.930326 275.471376,182.077837 275.471376,182.077837 C275.471376,182.077837 264.7292,66.4196551 215.882895,0.249074714" id="Path-5" fill="#F2534A"></path>
                     <path d="M26.8730722,51.9754501 C74.6070015,75.8654218 113.487982,82.7071612 134.244198,83.1864753 C155.000414,83.6657893 210.937839,72.0997 244.474534,53.2124455 C250.791117,66.8782268 255.040973,83.5948918 255.040973,83.5948918 C255.040973,83.5948918 144.700588,153.145214 16.8103527,82.6889369 C19.5079322,70.1519982 24.166865,58.2755542 26.8730722,51.9754501 Z" id="Path-45" fill="#00BEBC"></path>
                     <path d="M51.9737912,3.70564773 C99.7077205,27.5956194 120.05502,22.6630573 138.416387,24.0555654 C156.777754,25.4480735 219.353576,5.06473348 219.353576,5.06473348 C219.353576,5.06473348 226.959054,15.7081065 232.42087,26.954962 C234.444342,29.4065588 183.043338,53.8744462 136.882494,53.1061658 C90.7216502,52.3378855 78.5367973,49.434851 38.1379114,27.1786162 C42.7115262,15.6549474 47.9427599,9.17366261 51.9737912,3.70564773 Z" id="Path-45" fill="#00BEBC"></path>
