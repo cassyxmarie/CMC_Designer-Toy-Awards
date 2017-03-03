@@ -1,68 +1,70 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.judge-intro {
-  height: 675px;
-  background: url('/assets/images/Toy2.svg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-
-  .judge-panel {
-    width: 700px;
-  }
-
-  .judge-content {
-    background: rgba(255, 255, 255, 0.7);
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    position: relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .judge-img {
-    margin: 0px;
-    padding: 0px;
+  .judge-intro {
+    height: 675px;
+    background: url('/assets/images/Toy2.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    // display: -webkit-flex; /* Safari */
-    // -webkit-justify-content: center; /* Safari 6.1+ */
-  }
 
-  .judge-blurb {
-    position: relative;
-    top: -100px;
-    width: 1050px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // display: -webkit-flex; /* Safari */
-    // -webkit-justify-content: center; /* Safari 6.1+ */
-    // -webkit-align-items: center; /* Safari 6.1+ */
-    margin: 0px;
-
-    .page-head1 { //used other places
-      font-size: 47px;
-      font-weight: 600;
+    .judge-panel {
+      width: 700px;
     }
 
-    .page-head2 {
-      font-size: 70px;
-      font-size: 200;
-      line-height: 60px;
+    .judge-content {
+      background: rgba(255, 255, 255, 0.7);
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
     }
 
-    .body { //used other places
-      line-height: 21px;
-      font-family: "Arvo";
-      margin-top: 31px;
-      margin-left: 15px;
+    .judge-img {
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      // display: -webkit-flex; /* Safari */
+      // -webkit-justify-content: center; /* Safari 6.1+ */
+    }
+
+    .judge-blurb {
+      position: relative;
+      top: -100px;
+      width: 1050px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // display: -webkit-flex; /* Safari */
+      // -webkit-justify-content: center; /* Safari 6.1+ */
+      // -webkit-align-items: center; /* Safari 6.1+ */
+      margin: 0px;
+
+      .page-head1 { //used other places
+        font-size: 47px;
+        font-weight: 600;
+      }
+
+      .page-head2 {
+        font-size: 70px;
+        font-size: 200;
+        line-height: 60px;
+      }
+
+      .body { //used other places
+        line-height: 21px;
+        font-family: "Arvo";
+        margin-top: 31px;
+        margin-left: 15px;
+      }
     }
   }
 }

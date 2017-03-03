@@ -1,101 +1,103 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.winners-page {
-  height: 600px;
+  .winners-page {
+    height: 600px;
 
-  .main-img {
-    // border: 1px solid black;
-    padding: none;
-  }
+    .main-img {
+      // border: 1px solid black;
+      padding: none;
+    }
 
-  .designer-p {
-    position: relative;
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 0px;
-    top: 0px;
-  }
+    .designer-p {
+      position: relative;
+      font-weight: 700;
+      font-size: 100px;
+      line-height: 0px;
+      top: 0px;
+    }
 
-  .toyawards-p {
-    position: relative;
-    font-weight: 200;
-    font-size: 66px;
-    line-height: 0px;
-    margin-left: 5px;
-    top: -10px;
-  }
+    .toyawards-p {
+      position: relative;
+      font-weight: 200;
+      font-size: 66px;
+      line-height: 0px;
+      margin-left: 5px;
+      top: -10px;
+    }
 
-  .year-p {
-    color: $red;
-    position: relative;
-    font-size: 50px;
-    font-weight: 200;
-    line-height: 0px;
-    top: -30px;
-    display: flex;
-    justify-content: flex-end;
-  }
+    .year-p {
+      color: $red;
+      position: relative;
+      font-size: 50px;
+      font-weight: 200;
+      line-height: 0px;
+      top: -30px;
+      display: flex;
+      justify-content: flex-end;
+    }
 
-  .toyIMG {
-    max-height: 400px;
-    padding: 20px;
-  }
+    .toyIMG {
+      max-height: 400px;
+      padding: 20px;
+    }
 
-  #small-width {
-    width: 20px;
-    height: 20px;
-    position: static;
-    top: -100px;
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+    #small-width {
+      width: 20px;
+      height: 20px;
+      position: static;
+      top: -100px;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
-  div.scrollmenu-winners {
-    background-color: $cream;
-    overflow: auto;
-    white-space: nowrap;
-    overflow-y: hidden;
-  }
+    div.scrollmenu-winners {
+      background-color: $cream;
+      overflow: auto;
+      white-space: nowrap;
+      overflow-y: hidden;
+    }
 
-  div.scrollmenu-winners .win {
-    display: inline-block;
-    border: 2px solid $cream;
-    height: 400px;
-  }
+    div.scrollmenu-winners .win {
+      display: inline-block;
+      border: 2px solid $cream;
+      height: 400px;
+    }
 
-  // div.scrollmenu-winners .win:hover {
-  //   border: 2px solid $blue;
-  // }
+    // div.scrollmenu-winners .win:hover {
+    //   border: 2px solid $blue;
+    // }
 
-  .win .nohover {
-    border: 1px $cream solid;
-  }
+    .win .nohover {
+      border: 1px $cream solid;
+    }
 
-  .win-text {
-    width: 279px;
-    position: relative;
-    top: -135px;
-    float: right;
-  }
+    .win-text {
+      width: 279px;
+      position: relative;
+      top: -135px;
+      float: right;
+    }
 
-  .win-award {
-    font-weight: bold;
-    font-family: "Arvo";
-    line-height: 0px;
-    margin-bottom: 25px;
-  }
+    .win-award {
+      font-weight: bold;
+      font-family: "Arvo";
+      line-height: 0px;
+      margin-bottom: 25px;
+    }
 
-  .win-name {
-    color: $blue;
-    font-weight: bold;
-    line-height: 0px;
-    font-size: 30px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
+    .win-name {
+      color: $blue;
+      font-weight: bold;
+      line-height: 0px;
+      font-size: 30px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
 
-  .second-line {
-    line-height: 50px;
+    .second-line {
+      line-height: 50px;
+    }
   }
 }

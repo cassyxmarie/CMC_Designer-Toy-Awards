@@ -1,107 +1,110 @@
 @import "variables-mixins";
-.banner-news {
-  background: $red;
-}
-.news-section {
-  // height: 650px;
-  // padding-top: 20px;
-  background: url('/assets/images/repeattoy.svg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 1000px) {
 
-  .news-intro {
-    height: 675px;
-    background: $blue;
-    display: flex;
-    justify-content: center;    display: flex;
-    justify-content: center;
-    align-items: center;
+  .banner-news {
+    background: $red;
+  }
+  .news-section {
+    // height: 650px;
+    // padding-top: 20px;
+    background: url('/assets/images/repeattoy.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    .intro-container {
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.7);
-      height: 500px;
-      width: 1050px;
+    .news-intro {
+      height: 675px;
+      background: $blue;
+      display: flex;
+      justify-content: center;    display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .intro-container {
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.7);
+        height: 500px;
+        width: 1050px;
+      }
+
+    }
+    //
+    // .news-line {
+    //   margin-top: 5px;
+    //   height: 2px;
+    //   background: $gold;
+    //   width: 700px;
+    // }
+    .header-title {
+      background: $cream;
+      margin-top: 0px;
+    }
+    .article-container {
+      display: flex;
+      justify-content: center;
     }
 
-  }
-  //
-  // .news-line {
-  //   margin-top: 5px;
-  //   height: 2px;
-  //   background: $gold;
-  //   width: 700px;
-  // }
-  .header-title {
-    background: $cream;
-    margin-top: 0px;
-  }
-  .article-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .news-article {
-    width: 600px;
-    background: rgba(255, 255, 255, 0.85);
-    padding-left: 167px;
-    padding-right: 167px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .title-container {
-    float: left;
-    width: 80%;
-    margin: 0px;
-    margin-left: 5px;
-
-    // height: 70px;
-  }
-
-  .date-container {
-    float: right;
-    margin-right: 5px;
-    margin-top: 5px;
-
-  }
-  .news-title {
-    font-family: "Arvo";
-    font-weight: 600;
-    // color: $gold;
-    font-size: 28px;
-    line-height: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    // width: 80%;
-
-  }
-  .news-img {
-    width: 600px;
-    img {
-      width: 100%;
-      border: 1px solid $gold;
+    .news-article {
+      width: 600px;
+      background: rgba(255, 255, 255, 0.85);
+      padding-left: 167px;
+      padding-right: 167px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
-  }
 
-  .news-date {
-    // color: $gold;
-    font-weight: bold;
-  }
+    .title-container {
+      float: left;
+      width: 80%;
+      margin: 0px;
+      margin-left: 5px;
 
-  .news-text {
-    text-align: justify;
+      // height: 70px;
+    }
 
-  }
+    .date-container {
+      float: right;
+      margin-right: 5px;
+      margin-top: 5px;
 
-  .divider {
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    height: 2px;
-    background: $brown;
-    margin-top: 50px;
+    }
+    .news-title {
+      font-family: "Arvo";
+      font-weight: 600;
+      // color: $gold;
+      font-size: 28px;
+      line-height: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      // width: 80%;
+
+    }
+    .news-img {
+      width: 600px;
+      img {
+        width: 100%;
+        border: 1px solid $gold;
+      }
+    }
+
+    .news-date {
+      // color: $gold;
+      font-weight: bold;
+    }
+
+    .news-text {
+      text-align: justify;
+
+    }
+
+    .divider {
+      display: flex;
+      justify-content: center;
+      width: 600px;
+      height: 2px;
+      background: $brown;
+      margin-top: 50px;
+    }
   }
 }

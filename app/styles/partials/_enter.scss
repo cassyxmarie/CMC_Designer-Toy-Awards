@@ -1,95 +1,97 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.enter-page {
-  height: 700px;
-  // width: 1280px;
-}
-
-.banner {
-  background: $red;
-  font-size: 14px;
-  position:absolute;
-  top: 10px;
-
-  a {
-    color: $gold;
-  }
-}
-
-.red-text {
-  color: $red;
-  font-weight: 700;
-  text-align: center;
-}
-
-.enter-img {
-  position: absolute;
-  width: 375px;
-  right: 0px;
-  top: 100px;
-}
-
-.enter-box {
-  width: 500px;
-  height: 500px;
-  top: 100px;
-  // border: 1px solid black;
-  text-align: center;
-  position: absolute;
-  left: 20%;
-
-  .designer-p {
-    position: relative;
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 0px;
-    top: 0px;
+  .enter-page {
+    height: 700px;
+    // width: 1280px;
   }
 
-  .toyawards-p {
-    position: relative;
-    font-weight: 200;
-    font-size: 66px;
-    line-height: 0px;
-    margin-left: 5px;
-    top: -10px;
-  }
+  .banner {
+    background: $red;
+    font-size: 14px;
+    position:absolute;
+    top: 10px;
 
-  .yellow-line {
-    margin-left: 8%;
-    position: relative;
-    align-self: center;
-    width: 85%;
-    height: 3px;
-    background-color: $gold;
-    margin: none;
-    top: -40px;
-  }
-
-  .welcome-box {
-    width: 82%;
-    margin-left: 10%;
-    text-align: justify;
-  }
-
-  .welcome-p {
-    position: relative;
-    font-weight: 400;
-    color: $blue;
-    top: -45px;
-    line-height: 21px;
-  }
-
-  .enter-p {
-    position: relative;
-    top: -30px;
-    font-weight: 700;
-    color: $red;
-    font-size: 45px;
-    line-height: 0px;
-
-    &:hover {
+    a {
       color: $gold;
+    }
+  }
+
+  .red-text {
+    color: $red;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .enter-img {
+    position: absolute;
+    width: 375px;
+    right: 0px;
+    top: 100px;
+  }
+
+  .enter-box {
+    width: 500px;
+    height: 500px;
+    top: 100px;
+    // border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+
+    .designer-p {
+      position: relative;
+      font-weight: 700;
+      font-size: 100px;
+      line-height: 0px;
+      top: 0px;
+    }
+
+    .toyawards-p {
+      position: relative;
+      font-weight: 200;
+      font-size: 66px;
+      line-height: 0px;
+      margin-left: 5px;
+      top: -10px;
+    }
+
+    .yellow-line {
+      margin-left: 8%;
+      position: relative;
+      align-self: center;
+      width: 85%;
+      height: 3px;
+      background-color: $gold;
+      margin: none;
+      top: -40px;
+    }
+
+    .welcome-box {
+      width: 82%;
+      margin-left: 10%;
+      text-align: justify;
+    }
+
+    .welcome-p {
+      position: relative;
+      font-weight: 400;
+      color: $blue;
+      top: -45px;
+      line-height: 21px;
+    }
+
+    .enter-p {
+      position: relative;
+      top: -30px;
+      font-weight: 700;
+      color: $red;
+      font-size: 45px;
+      line-height: 0px;
+
+      &:hover {
+        color: $gold;
+      }
     }
   }
 }

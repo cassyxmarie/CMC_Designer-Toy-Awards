@@ -1,164 +1,201 @@
 @import "partials/base";
+@media only screen and (min-width: 1000px) {
 
-.app-container {
-  min-width: 1280px;
-  max-width: 1280px;
-  margin: 0px;
-  // padding: 0px;
-}
-
-p {
-  color: $brown;
-  font-family: "Raleway";
-}
-
-body {
-  background: #FAFAFA;
-  padding-top: 15px;
-  margin: 0px;
-  padding-bottom: 0px;
-
-}
-
-a {
-  text-decoration: none;
-  color: $brown;
-
-  &:hover {
-    color: $blue;
-  }
-}
-
-nav {
-  font-family: "Arvo";
-  font-weight: 400;
-  background: $cream;
-  height: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-  z-index: 1;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-
-  .nav {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-.site-title {
-  // border: solid 1px black;
-  line-height: 2px;
-  color: $brown;
-  margin-left: 5%;
-
-  .designer {
-    font-weight: bolder;
-    font-size: 36px;
-    letter-spacing: 1px;
+  .mobile {
+    display: none;
   }
 
-  .toy-awards {
-    position: relative;
-    top: -2px;
-    font-weight: 200;
-    font-size: 25px;
-    margin-left: 2.5px;
+  .app-container {
+    min-width: 1280px;
+    max-width: 1280px;
+    margin: 0px;
+    // padding: 0px;
   }
-}
 
-.header-title {
-  margin-top: 40px;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.title-bold {
-  font-weight: 700;
-  color: $blue;
-  font-size: 40px;
-  line-height: 0px;
-}
-
-.title-thin {
-  font-weight: 400;
-  color: $brown;
-  font-size: 40px;
-  line-height: 0px;
-}
-
-.scroll {
-  // writing-mode: tb-rl;
-  
-  font-size: 14px;
-  // text-orientation: sideways-right;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-}
-
-
-.page-head1 {
-  font-family: "Arvo";
-  color: $gold;
-  font-size: 55px;
-  font-weight: 600;
-  line-height: 45px;
-  margin: 0px;
-}
-
-.page-head2 {
-  font-family: "Raleway";
-  font-weight: 500;
-  color: $brown;
-  font-size: 45px;
-  margin: 0px;
-}
-
-footer {
-  background: $brown;
-  height: 100px;
-  width: 100%;
-  position: static;
-  bottom: 0px;
-  left: 0px;
-  margin: 0px;
-  padding-top: 20px;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-.footer-contact {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  height: 20px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
   p {
-    color: white;
+    color: $brown;
+    font-family: "Raleway";
+  }
+
+  body {
+    background: #FAFAFA;
+    padding-top: 15px;
+    margin: 0px;
+    padding-bottom: 0px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: $brown;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  nav {
+    font-family: "Arvo";
+    font-weight: 400;
+    background: $cream;
+    height: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .site-title {
+    // border: solid 1px black;
+    line-height: 2px;
+    color: $brown;
+    margin-left: 5%;
+
+    .designer {
+      font-weight: bolder;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    .toy-awards {
+      position: relative;
+      top: -2px;
+      font-weight: 200;
+      font-size: 25px;
+      margin-left: 2.5px;
+    }
+  }
+
+  .header-title {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .title-bold {
+    font-weight: 700;
+    color: $blue;
+    font-size: 40px;
+    line-height: 0px;
+  }
+
+  .title-thin {
+    font-weight: 400;
+    color: $brown;
+    font-size: 40px;
+    line-height: 0px;
+  }
+
+  .scroll {
+    // writing-mode: tb-rl;
+
+    font-size: 14px;
+    // text-orientation: sideways-right;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  }
+
+
+  .page-head1 {
+    font-family: "Arvo";
+    color: $gold;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 0px;
+  }
+
+  .page-head2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    color: $brown;
+    font-size: 45px;
+    margin: 0px;
+  }
+
+  footer {
+    background: $brown;
+    height: 100px;
+    width: 100%;
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .footer-contact {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    p {
+      color: white;
+    }
+  }
+
+  .link {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #twitter {
+    padding-top: 7px;
+    padding-left: 35px;
   }
 }
+@media only screen and (max-width: 999px) {
+  body {
+    background: $cream;
+  }
 
-.link {
-  height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+  p, img, a {
+    display: none;
+  }
 
-#twitter {
-  padding-top: 7px;
-  padding-left: 35px;
+  #mobile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+
+  .mobile {
+    display: block;
+
+    img {
+      width: 50%;
+      max-width: 300px;
+    }
+    
+    p {
+      color: $blue;
+      font-family: "Arvo";
+      font-size: 1.2em;
+    }
+  }
 }

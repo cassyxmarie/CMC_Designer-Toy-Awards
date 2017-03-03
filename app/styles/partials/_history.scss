@@ -1,54 +1,56 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.history-page {
-  height: 690px;
-  // background: $blue;
-  padding-left: 75px;
-  padding-right: 75px;
-  // border: 1px solid orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .history-page {
+    height: 690px;
+    // background: $blue;
+    padding-left: 75px;
+    padding-right: 75px;
+    // border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  .history-img {
-    width: 700px;
-    float: right;
-    padding-right: 40px;
-  }
-
-  .history-container {
-    width: 1050px;
-  }
-
-  .p1, .p2, .p3, .p4, .p5 {
-    width: 240px;
-    float: left;
-    text-align: justify;
-    padding: 10px;
-  }
-
-  .p1 {
-    padding-top: 23px;
-  }
-
-  .header {
-    float: left;
-    text-align: center;
-    padding-left: 10px;
-
-    .head1 { //same as meet in intro
-      font-family: "Arvo";
-      color: $gold;
-      font-size: 55px;
-      font-weight: 600;
-      line-height: 45px;
+    .history-img {
+      width: 700px;
+      float: right;
+      padding-right: 40px;
     }
 
-    .head2 {
-      font-family: "Raleway";
-      font-weight: 500;
-      color: $brown;
-      font-size: 45px;
+    .history-container {
+      width: 1050px;
+    }
+
+    .p1, .p2, .p3, .p4, .p5 {
+      width: 240px;
+      float: left;
+      text-align: justify;
+      padding: 10px;
+    }
+
+    .p1 {
+      padding-top: 23px;
+    }
+
+    .header {
+      float: left;
+      text-align: center;
+      padding-left: 10px;
+
+      .head1 { //same as meet in intro
+        font-family: "Arvo";
+        color: $gold;
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 45px;
+      }
+
+      .head2 {
+        font-family: "Raleway";
+        font-weight: 500;
+        color: $brown;
+        font-size: 45px;
+      }
     }
   }
 }

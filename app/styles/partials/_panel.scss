@@ -1,51 +1,53 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.judging-page {
-  height: 575px;
+  .judging-page {
+    height: 575px;
 
-  .judge-name {
-    font-family: "Arvo";//used in regulations
-    font-weight: 700;
-    color: $blue;
-    line-height: 7px;
-    &:hover {
-      color: $gold;
+    .judge-name {
+      font-family: "Arvo";//used in regulations
+      font-weight: 700;
+      color: $blue;
+      line-height: 7px;
+      &:hover {
+        color: $gold;
+      }
     }
-  }
 
-  .judge-title {
-    font-family: "Arvo";
-    font-weight: 400;
-    color: $brown;
-    line-height: 0px;
-    padding-bottom: 15px;
-  }
+    .judge-title {
+      font-family: "Arvo";
+      font-weight: 400;
+      color: $brown;
+      line-height: 0px;
+      padding-bottom: 15px;
+    }
 
-  .judge-group {
-    width: 300px;
-  }
+    .judge-group {
+      width: 300px;
+    }
 
-  #small-width {
-    width: 20px;
-    height: 20px;
-    position: static;
-    top: -100px;
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+    #small-width {
+      width: 20px;
+      height: 20px;
+      position: static;
+      top: -100px;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
-  div.scrollmenu-judging {
-    background-color: $cream;
-    overflow: auto;
-    white-space: nowrap;
-    padding-bottom: 20px;
-    padding-top: 30px;
-  }
+    div.scrollmenu-judging {
+      background-color: $cream;
+      overflow: auto;
+      white-space: nowrap;
+      padding-bottom: 20px;
+      padding-top: 30px;
+    }
 
-  div.scrollmenu-judging .judge-group {
-      display: inline-block;
-      border: 2px solid $cream;
-      // padding: 14px;
+    div.scrollmenu-judging .judge-group {
+        display: inline-block;
+        border: 2px solid $cream;
+        // padding: 14px;
+    }
   }
 }

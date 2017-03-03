@@ -1,59 +1,61 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.about-page {
-  background: url('/assets/images/stripes.svg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 690px;
-  // border: 1px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  .about-container {
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.7);
-    height: 500px;
-    width: 1050px;
+  .about-page {
+    background: url('/assets/images/stripes.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
     // border: 1px solid red;
     display: flex;
     align-items: center;
-  }
+    justify-content: center;
 
-  .img-container {
-    padding-top: 100px;
-    float: right;
-    // border: 1px solid red;
-  }
-
-  .about-img {
-    width: 400px;
-    padding-right: 10px;
-  }
-
-  .text-container {
-    float: left;
-
-    .page-head1, .page-head2 {
-      margin: 0px;
+    .about-container {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      height: 500px;
+      width: 1050px;
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
     }
 
-    .page-head1 {
-      color: $red;
+    .img-container {
+      padding-top: 100px;
+      float: right;
+      // border: 1px solid red;
     }
 
-    .p1 {
-      padding: 3px
+    .about-img {
+      width: 400px;
+      padding-right: 10px;
     }
 
-    .p2 {
-      padding: 3px;
-    }
+    .text-container {
+      float: left;
 
-    p {
-      width: 100%;
+      .page-head1, .page-head2 {
+        margin: 0px;
+      }
+
+      .page-head1 {
+        color: $red;
+      }
+
+      .p1 {
+        padding: 3px
+      }
+
+      .p2 {
+        padding: 3px;
+      }
+
+      p {
+        width: 100%;
+      }
     }
   }
 }

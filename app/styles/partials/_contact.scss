@@ -1,6 +1,8 @@
 @import "variables-mixins";
+@media only screen and (min-width: 1000px) {
 
-.contact-page {
-  height: 325px;
-  border: 1px solid green;
+  .contact-page {
+    height: 325px;
+    border: 1px solid green;
+  }
 }
