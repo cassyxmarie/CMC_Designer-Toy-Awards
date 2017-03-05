@@ -35,6 +35,8 @@
 
     .text-container {
       float: left;
+      margin-right: 15px;
+      max-width: 645px;
 
       .page-head1, .page-head2 {
         margin: 0px;
@@ -45,11 +47,14 @@
       }
 
       .p1 {
-        padding: 3px
+        padding: 3px;
+        text-align: justify;
       }
 
       .p2 {
         padding: 3px;
+        text-align: justify;
+
       }
 
       p {

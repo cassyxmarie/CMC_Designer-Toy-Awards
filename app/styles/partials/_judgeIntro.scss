@@ -26,17 +26,20 @@
     .judge-panel {
       width: 700px;
     }
-
-    .judge-content {
+    .judge-background {
       background: rgba(255, 255, 255, 0.7);
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
-      position: relative;
+      height: 475px;
       margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 25px;
-      padding-right: 25px;
+      padding-top: 75px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .judge-content {
+      // position: relative;
+      // margin-top: 50px;
+      // margin-bottom: 50px;
+      // padding: 25px;
+      height: 400px;
     }
 
     .judge-img {
@@ -44,14 +47,15 @@
       padding: 0px;
       display: flex;
       justify-content: center;
+      height: 250px;
       // display: -webkit-flex; /* Safari */
       // -webkit-justify-content: center; /* Safari 6.1+ */
     }
 
     .judge-blurb {
-      position: relative;
-      top: -100px;
+
       width: 1050px;
+      height: 125px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -70,6 +74,10 @@
         font-size: 70px;
         font-size: 200;
         line-height: 60px;
+      }
+
+      .section2 {
+        width: 570px;
       }
 
       .body { //used other places
