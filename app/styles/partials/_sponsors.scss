@@ -10,25 +10,28 @@
     padding-left: 50px;
     padding-right: 50px;
 
+  .page-head2 {
+    font-size: 42px;
+  }
+
     .sponsors-container{
       height:  500px;
 
       float: left;
       width: 50%;
       // border: 1px solid green;
-      margin: 20px;
-
+      // margin: 20px;
 
       .sponsor-img {
         padding-top: 30px;
-        width: 500px;
+        width: 460px;
       }
     }
 
     .img-box {
       float: right;
       width: 550px;
-      height: 110px;
+      height: 100px;
       // border: 1px solid blue;
 
       .donate-img {
@@ -55,9 +58,40 @@
 
     .donate-container {
       float: right;
-      width: 43%;
-      margin: 20px;
+      width: 48%;
+      // margin: 0px;
       // border: 1px solid purple;
     }
   }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .sponsors-page {
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .sponsors-container {
+      width: 48%;
+    }
+
+    .page-head1 {
+      font-size: 45px;
+    }
+
+    .img-box {
+      height: 70px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1090px) and (max-width: 1200px) {
+  .sponsors-page {
+    margin-left: 40px;
+    margin-right: 40px;
+
+  .donate-container {
+    width: 45%;
+  }
+}
 }
