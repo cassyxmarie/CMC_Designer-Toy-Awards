@@ -1,38 +1,37 @@
 @import "variables-mixins";
 
 @media only screen and (min-width: 1000px) {
-  .hide-show2 {
-    display: none;
+
+  .header {
+    width: 300px;
+    margin: 0px;
   }
+
   .history-page {
     height: 690px;
     // background: $blue;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
     // border: 1px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .history-img {
-      width: 700px;
+      width: 535px;
+      width: 55%;
       float: right;
+      margin-top: 20px;
+      margin-left: 15px;
       padding-right: 40px;
     }
 
-    .history-container {
-      width: 1050px;
-    }
-
-    .p1, .p2, .p3, .p4 {
-      width: 240px;
+    .history-body {
+      max-width: 900px;
+      min-width: 800px;
       float: left;
       text-align: justify;
-      padding: 10px;
-    }
-
-    .p1 {
-      padding-top: 23px;
+      margin-top: 0px;
     }
 
     .header {
@@ -54,28 +53,6 @@
         color: $brown;
         font-size: 45px;
       }
-    }
-  }
-}
-@media only screen and (min-width: 1000px) and (max-width: 1190px) {
-  .history-page {
-    p {
-      font-size: 13px;
-      width: 200px;
-      float: left;
-      text-align: justify;;
-    }
-
-    .p1, .p2, .p3, .p4 {
-      padding: 5px;
-    }
-
-    .history-img {
-      width: 400px;
-      float: right;
-    }
-    .header {
-      float: right;
     }
   }
 }
