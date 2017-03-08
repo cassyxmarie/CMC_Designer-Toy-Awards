@@ -2,38 +2,20 @@
 @media only screen and (min-width: 1000px) {
 
   .about-page {
-    background: url('/assets/images/stripes.svg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 690px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: url('/assets/images/stripes.svg');
+    @include parallax;
+    @include centerItems;
 
     .about-container {
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.7);
+      @include whiteBackground;
       height: 500px;
-      width: 1050px;
-      // border: 1px solid red;
+      padding: 20px;
       display: flex;
       align-items: center;
     }
 
-    .img-container {
-      padding-top: 100px;
-      float: right;
-      // border: 1px solid red;
-    }
-
-    .about-img {
-      width: 400px;
-      padding-right: 10px;
-    }
-
-    .text-container {
+    .about-text {
       float: left;
       margin-right: 15px;
       max-width: 645px;
@@ -46,20 +28,24 @@
         color: $red;
       }
 
-      .p1 {
+      .p1, .p2 {
         padding: 3px;
         text-align: justify;
-      }
-
-      .p2 {
-        padding: 3px;
-        text-align: justify;
-
       }
 
       p {
         width: 100%;
       }
+
+    }
+    .about-img-container {
+      padding-top: 100px;
+      float: right;
+    }
+
+    .about-img {
+      width: 400px;
+      padding-right: 10px;
     }
   }
 }

@@ -2,20 +2,12 @@
 @media only screen and (min-width: 1000px) {
 
   .descriptions-page {
+    @include centerItems;
     background-color: $gold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     .descriptions-container {
-      width: 1050px;
-      background: rgba(255, 255, 255, 0.7);
+      @include whiteBackground;
     }
 
-    // .descriptions-text {
-    //   width: 200px;
-    //   border: 1px solid orange;
-    //
-    // }
     div.scrollmenu-description {
       background-color: $cream;
       overflow: auto;
@@ -29,14 +21,11 @@
       height: 500px;
       width: 350px;
       padding: 10px;
-    // .descriptions-containerSm {
-    //   width: 200px;
-    //
-    // }
-    .descriptions-text {
-      width: 250px;
-      border: 1px solid green;
+
+      .descriptions-text {
+        width: 250px;
+        border: 1px solid green;
+      }
     }
-  }
   }
 }

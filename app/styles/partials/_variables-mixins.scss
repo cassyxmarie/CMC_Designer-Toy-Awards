@@ -8,6 +8,36 @@ $light-gold: #FADAA8;
 $red: #F2534A;
 $brown: #423636;
 
+@mixin parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin centerItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin justifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin subHeadBlue {
+  font-family: "Arvo";
+  font-weight: 700;
+  color: $blue;
+  line-height: 7px;
+}
+
+@mixin whiteBackground {
+  background: rgba(255, 255, 255, 0.7);
+  width: 90%;
+}
+
 
 //http://www.cluttermagazine.com/
 //https://www.facebook.com/designertoyawards

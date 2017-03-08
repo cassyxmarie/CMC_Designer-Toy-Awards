@@ -8,20 +8,13 @@
   .process-page {
     height: 800px;
     background: url('/assets/images/crosscrownlarge.svg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  display: flex;
-    justify-content: center;
-    align-items: center;
+    @include parallax;
+    @include centerItems;
 
     .process-container {
       height: 700px;
-      width: 1050px;
-      background: rgba(255, 255, 255, 0.7);
-
+      @include whiteBackground;
       .process-text {
-        // width: 925px;
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 40px;
@@ -41,13 +34,11 @@
         font-weight: 700;
         color: $blue;
         line-height: 7px;
-        // font-size: 20px;
         padding-left: 30px;
       }
 
       .process-block {
         padding-left: 50px;
-
       }
     }
   }

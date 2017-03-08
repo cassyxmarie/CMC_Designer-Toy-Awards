@@ -9,7 +9,6 @@
     min-width: 1000px;
     max-width: 1280px;
     margin: 0px;
-    // padding: 0px;
   }
 
   p {
@@ -28,7 +27,6 @@
   a {
     text-decoration: none;
     color: $brown;
-
     &:hover {
       color: $blue;
     }
@@ -54,7 +52,6 @@
   }
 
   .site-title {
-    // border: solid 1px black;
     line-height: 2px;
     color: $brown;
     margin-left: 5%;
@@ -95,17 +92,13 @@
   }
 
   .scroll {
-    // writing-mode: tb-rl;
-
     font-size: 14px;
-    // text-orientation: sideways-right;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   }
-
 
   .page-head1 {
     font-family: "Arvo";
@@ -136,9 +129,7 @@
   }
 
   .footer-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centerItems;
     position: relative;
     bottom: 0px;
     left: 0px;
@@ -168,6 +159,7 @@
     padding-left: 35px;
   }
 }
+
 @media only screen and (max-width: 999px) {
   body {
     background: $cream;
@@ -178,9 +170,7 @@
   }
 
   #mobile-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centerItems;
     margin-top: 15%;
   }
 

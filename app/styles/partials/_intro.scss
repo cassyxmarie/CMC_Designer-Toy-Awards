@@ -3,55 +3,27 @@
 
   .intro-page {
     height: 675px;
-    // background: $blue;
     background-image: url(/assets/images/Crown.svg);
-    // background-image: url('../../../../assets/images/crown.svg');
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    display: block;
-    padding-left: 75px;
-    padding-right: 75px;
+    @include parallax;
+    @include centerItems;
+    align-content: center;
   }
 
-  .toyKingContent {
-    background: rgba(255, 255, 255, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 100px;
+  .intro-container{
+    @include whiteBackground;
+    @include centerItems;
+    height: 500px;
   }
 
-  .toyKing {
+  .intro-img {
     width: 300px;
   }
 
-  .toyKingBlurb {
+  .intro-text {
     font-weight: 500;
     width: 365px;
     height: 475px;
     padding: 10px;
     text-align: center;
-  }
-
-  .page-head1 {
-    font-family: "Arvo";
-    color: $gold;
-    font-size: 55px;
-    font-weight: 600;
-    line-height: 45px;
-
-    .page-head2 {
-      font-family: "Raleway";
-      font-weight: 500;
-      color: $brown;
-      font-size: 45px;
-    }
   }
 }

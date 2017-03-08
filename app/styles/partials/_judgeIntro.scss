@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 1000px) and (max-width: 1085px) {
   .judge-blurb {
-    .section2 {
+    .judge-body-container {
       width: 450px;
     }
     p {
@@ -13,61 +13,43 @@
 
 @media only screen and (min-width: 1000px) {
 
-  .judge-intro {
+  .judge-page {
     height: 675px;
     background: url('/assets/images/Toy2.svg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+    @include parallax;
+    @include justifyCenter;
 
-    .judge-panel {
-      width: 700px;
-    }
     .judge-background {
-      background: rgba(255, 255, 255, 0.7);
+      @include whiteBackground;
       height: 475px;
       margin-top: 50px;
       padding-top: 75px;
       padding-left: 30px;
       padding-right: 30px;
     }
+
     .judge-content {
-      // position: relative;
-      // margin-top: 50px;
-      // margin-bottom: 50px;
-      // padding: 25px;
       height: 400px;
     }
 
-    .judge-img {
+    .judge-img-container {
+      height: 250px;
+      @include justifyCenter;
       margin: 0px;
       padding: 0px;
-      display: flex;
-      justify-content: center;
-      height: 250px;
-      // display: -webkit-flex; /* Safari */
-      // -webkit-justify-content: center; /* Safari 6.1+ */
+      .judge-img {
+        width: 700px;
+      }
     }
 
-    .judge-blurb {
-
+    .judge-text {
       width: 1050px;
       height: 125px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      // display: -webkit-flex; /* Safari */
-      // -webkit-justify-content: center; /* Safari 6.1+ */
-      // -webkit-align-items: center; /* Safari 6.1+ */
+      @include centerItems;
       margin: 0px;
 
-
-      .page-head1 { //used other places
+      .page-head1 {
         font-size: 47px;
-        font-weight: 600;
       }
 
       .page-head2 {
@@ -76,11 +58,11 @@
         line-height: 60px;
       }
 
-      .section2 {
+      .judge-body-container {
         width: 570px;
       }
 
-      .body { //used other places
+      .judge-body { 
         line-height: 21px;
         font-family: "Arvo";
         margin-top: 31px;

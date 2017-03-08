@@ -1,14 +1,11 @@
 @import "variables-mixins";
 @media only screen and (min-width: 1000px) {
 
-  .judging-page {
+  .panel-page {
     height: 575px;
 
     .judge-name {
-      font-family: "Arvo";//used in regulations
-      font-weight: 700;
-      color: $blue;
-      line-height: 7px;
+      @include subHeadBlue;
       &:hover {
         color: $gold;
       }
@@ -47,7 +44,6 @@
     div.scrollmenu-judging .judge-group {
         display: inline-block;
         border: 2px solid $cream;
-        // padding: 14px;
     }
   }
 }

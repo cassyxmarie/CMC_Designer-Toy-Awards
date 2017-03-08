@@ -4,23 +4,17 @@
   .regulations-page {
     height: 1000px;
     background-color: $red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centerItems;
     .regulations-container {
-      width: 1050px;
-      background: rgba(255, 255, 255, 0.7);
+      @include whiteBackground;
     }
     .regulation-text {
       margin-left: 40px;
       margin-right: 40px;
       margin-top: 40px;
       .regulation-header {
+        @include subHeadBlue;
         font-size: 18px;
-        font-family: "Arvo";
-        font-weight: 700;
-        color: $blue;
-        line-height: 7px;
         padding-left: 20px;
       }
       .regulations-block {

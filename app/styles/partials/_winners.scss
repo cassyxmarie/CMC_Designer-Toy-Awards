@@ -4,39 +4,6 @@
   .winners-page {
     height: 600px;
 
-    .main-img {
-      // border: 1px solid black;
-      padding: none;
-    }
-
-    .designer-p {
-      position: relative;
-      font-weight: 700;
-      font-size: 100px;
-      line-height: 0px;
-      top: 0px;
-    }
-
-    .toyawards-p {
-      position: relative;
-      font-weight: 200;
-      font-size: 66px;
-      line-height: 0px;
-      margin-left: 5px;
-      top: -10px;
-    }
-
-    .year-p {
-      color: $red;
-      position: relative;
-      font-size: 50px;
-      font-weight: 200;
-      line-height: 0px;
-      top: -30px;
-      display: flex;
-      justify-content: flex-end;
-    }
-
     .toyIMG {
       max-height: 400px;
       padding: 20px;
@@ -59,17 +26,13 @@
       overflow-y: hidden;
     }
 
-    div.scrollmenu-winners .win {
+    div.scrollmenu-winners .win-group {
       display: inline-block;
       border: 2px solid $cream;
       height: 400px;
     }
 
-    // div.scrollmenu-winners .win:hover {
-    //   border: 2px solid $blue;
-    // }
-
-    .win .nohover {
+    .win-group .nohover {
       border: 1px $cream solid;
     }
 

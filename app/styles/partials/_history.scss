@@ -2,28 +2,18 @@
 
 @media only screen and (min-width: 1000px) {
 
-  .header {
-    width: 300px;
-    margin: 0px;
-  }
-
   .history-page {
     height: 690px;
-    // background: $blue;
     padding-left: 100px;
     padding-right: 100px;
-    // border: 1px solid orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centerItems;
 
-    .history-img {
-      width: 535px;
-      width: 55%;
-      float: right;
-      margin-top: 20px;
-      margin-left: 15px;
-      padding-right: 40px;
+    .history-header {
+      width: 300px;
+      margin: 0px;
+      float: left;
+      text-align: center;
+      padding-left: 10px;
     }
 
     .history-body {
@@ -33,26 +23,14 @@
       text-align: justify;
       margin-top: 0px;
     }
-
-    .header {
-      float: left;
-      text-align: center;
-      padding-left: 10px;
-
-      .head1 { //same as meet in intro
-        font-family: "Arvo";
-        color: $gold;
-        font-size: 55px;
-        font-weight: 600;
-        line-height: 45px;
-      }
-
-      .head2 {
-        font-family: "Raleway";
-        font-weight: 500;
-        color: $brown;
-        font-size: 45px;
-      }
+    
+    .history-img {
+      width: 535px;
+      width: 55%;
+      float: right;
+      margin-top: 20px;
+      margin-left: 15px;
+      padding-right: 40px;
     }
   }
 }
