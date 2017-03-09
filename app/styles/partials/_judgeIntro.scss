@@ -1,9 +1,9 @@
 @import "variables-mixins";
 
 @media only screen and (min-width: 1000px) and (max-width: 1085px) {
-  .judge-blurb {
+  .judge-text {
     .judge-body-container {
-      width: 450px;
+      width: 50%;
     }
     p {
       font-size: 12px;
@@ -41,6 +41,9 @@
         width: 700px;
       }
     }
+    .judge-text-container {
+      @include centerItems;
+    }
 
     .judge-text {
       width: 1050px;
@@ -59,10 +62,10 @@
       }
 
       .judge-body-container {
-        width: 570px;
+        width: 60%;
       }
 
-      .judge-body { 
+      .judge-body {
         line-height: 21px;
         font-family: "Arvo";
         margin-top: 31px;

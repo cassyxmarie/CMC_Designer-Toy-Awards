@@ -10,7 +10,9 @@
 
 _Full multi-page design recreation of the designertoyawards.com website using original illustrations. Build still in-progress._
 
-_View the live site here: http://designertoyawards.surge.sh/ (For best results, view in Google Chrome)_
+_Images and some copy borrowed from original site at http://www.designertoyawards.com/._
+
+_View the live site here: http://designertoyawards.surge.sh/ (For best results, view in Google Chrome, Safari, or Mozilla Firefox)_
 
 ## Prerequisites
 
